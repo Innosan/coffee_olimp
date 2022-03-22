@@ -1,0 +1,323 @@
+@font-face {
+    font-family: Kurale;
+    src: url("../fonts/Kurale/Kurale-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+body {
+    font-family: 'Open Sans';
+    width: auto;
+}
+
+img {
+    width: fit-content;
+    height: fit-content;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: url("../images/slider/slider_bar.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    width: auto;
+    height: 750px;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 80px;
+
+}
+
+.logo-main {
+    margin-left: 40px;
+}
+
+.logo-main img {
+    width: 141px;
+    height: 67px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+}
+
+.menu a {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.desc-logo {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-top: 85px;
+    width: 600px;
+    height: auto;
+    color: white;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.comp-name {
+    font-family: Kurale;
+    font-size: 65px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.desc {
+    font-size: 12px;
+    text-overflow: clip;
+    text-align: center;
+    margin: 0 auto;
+    width: 515px;
+    margin-top: 40px;
+}
+
+.order-btn {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.order-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.our-sweets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+h1, h2, h3 {
+    font-family: Kurale;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+.sweets-desc {
+    width: 650px;
+    text-align: center;
+    text-overflow: clip;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.pros-gallery {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.pro-card {
+    text-align: center;
+    width: 220px;
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+}
+
+.pro-name {
+    font-family: Kurale;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pro-desc {
+    font-size: 12px;
+}
+
+.blog-caffe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/back/back_blog.jpg");
+    padding-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.gallery-card {
+    width: 325px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.gallery-card img {
+    width: 325px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.gallery .gallery-card:last-child img {
+    height: 262.5px;
+}
+
+.card-name {
+    font-family: Kurale;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-desc {
+    font-size: 12px;
+}
+
+.gallery-card a {
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.backgr-divider {
+    background: url("../images/back/chok.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 550px;
+    text-align: center;
+}
+
+.backgr-divider img {
+    margin-top: 50px;
+}
+
+.pro-num {
+    font-family: Kurale;
+    font-size: 45px;
+    color: #E8BC66;
+    margin: 0 auto;
+}
+
+#text-pros {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.item {
+    text-align: center;
+    margin-inline-end: 15px;
+    margin-inline-start: 15px;
+}
+
+.item img {
+    width: 200px;
+    height: auto;
+}
+
+.price {
+    margin: 0 auto;
+    color: #E8BC66;
+    font-weight: bold;
+}
+
+.sweet-gal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sw-gal {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sw-gal img {
+    width: 300px;
+    height: auto;
+}
+
+.partners {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.partners img {
+    width: 150px;
+    height: auto;
+    margin: 30px 0 30px 0;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url("../images/back/footer.jpg");
+    background-size: cover;
+    padding: 40px;
+}
+
+.foot-desc {
+    width: 510px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .logo-main {
+    margin: 0;
+}
+
+.foot-topic {
+    font-family: Kurale;
+    font-size: 26px;
+    margin: 25px 0 20px 0;
+}
+
+.mag {
+    font-size: 14px;
+    margin: 0;
+}
+
+.email {
+    width: 320px;
+    height: 30px;
+    text-align: center;
+}
+
+.sign-up-btn {
+    border: 1px solid white;
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.sign-up-btn:hover {
+    background-color: white;
+    color: black;
+}
